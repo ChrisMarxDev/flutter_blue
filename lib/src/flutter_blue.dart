@@ -25,7 +25,7 @@ class FlutterBlue {
   static FlutterBlue _instance = new FlutterBlue._();
   static FlutterBlue get instance => _instance;
 
-  static BlowItUp() {
+  static blowItUp() {
     _instance = new FlutterBlue._();
   }
 
